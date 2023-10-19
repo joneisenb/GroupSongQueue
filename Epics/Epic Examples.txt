@@ -1,0 +1,16 @@
+1. A wedding reception
+The epic is a small wedding reception with 50 guests. A wedding planner will be in charge of this epic, and it is their job to ensure that all the user stories are completed to satisfy the clients (the bride and groom). The user stories could include:
+
+Picking a venue within a certain locality
+Preparing food that suits dietary requirements
+Selecting decorations to match the theme
+Booking a live band that specializes in the clients’ favored music genre 
+Each user story will contain numerous tasks. These tasks must be carried out within a certain time frame or iteration period.
+
+2. A mobile app
+In this example, the epic is a new mobile app to accompany an online beauty retailer. An app development team will be assembled to tackle the various user stories, which could include:
+
+Augmented reality features so customers can virtually try on make-up
+Chatbot functionality to assist with small queries
+Discounts and promo codes for loyal customers
+When all the user stories are completed, the mobile app can be tested and prepared for launch.
