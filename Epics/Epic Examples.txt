@@ -14,3 +14,5 @@ Augmented reality features so customers can virtually try on make-up
 Chatbot functionality to assist with small queries
 Discounts and promo codes for loyal customers
 When all the user stories are completed, the mobile app can be tested and prepared for launch.
+
+
