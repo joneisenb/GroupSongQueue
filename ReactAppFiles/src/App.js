@@ -16,7 +16,26 @@ function App() {
 //Functoin to handle the button click
 //Currently it just logs the input value to the console.
   const handleButtonClick = () => {
-    console.log(searchInput);
+    findLinkType(searchInput);
+  }
+  
+//Function to send input links into the correct parser.
+  const findLinkType = (link) => {
+    if(searchInput.includes("open.spotify.com"))
+      console.log(getTrackID_Spotify(link));
+      
+  }
+  const getTrackID_Spotify = (link) => {
+    const spotifyLinkRegex = /https:\/\/open\.spotify\.com\/track\/([a-zA-Z0-9]+)\?*/;
+    const match = link.match(spotifyLinkRegex);
+
+    if (match && match[1]) {
+      return match[1];
+    } else {
+      console.error('Invalid Spotify track link');
+      return null;
+    }
+
   }
   
   
